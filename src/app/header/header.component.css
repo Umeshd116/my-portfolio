@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.font-playwrite {
+  font-family: 'Playwrite HR Lijeva', cursive;
+}
+
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.pacifico-regular {
+  font-family: 'Pacifico';
+  font-weight: 600;
+}
+/* Define the keyframes for the click effect */
+@keyframes click-effect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Add the animation class */
+.click-animation:active {
+  animation: click-effect 0.2s ease;
+}
