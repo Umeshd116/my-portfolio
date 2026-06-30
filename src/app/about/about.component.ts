@@ -17,7 +17,7 @@ export class AboutComponent {
 
   work: Array<any> = [
     {
-      company: 'Huntington Bank',
+      company: 'Key Bank',
       position: 'JAVA FULL STACK DEVELOPER',
       time_period: 'Jan 2025 - Present' + '.' + ' 10 months',
       place: 'Ohio, USA', 
