@@ -19,7 +19,7 @@ export class AboutComponent {
     {
       company: 'Key Bank',
       position: 'JAVA FULL STACK DEVELOPER',
-      time_period: 'Jan 2025 - Present' + '.' + ' 10 months',
+      time_period: 'Feb 2025 - Present',
       place: 'Ohio, USA', 
       projects: [
         {
