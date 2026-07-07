@@ -18,7 +18,7 @@ export class AboutComponent {
   work: Array<any> = [
     {
       company: 'Key Bank',
-      position: 'JAVA FULL STACK DEVELOPER',
+      position: 'FULL STACK SOFTWARE DEVELOPER',
       time_period: 'Feb 2025 - Present',
       place: 'Ohio, USA', 
       projects: [
@@ -29,14 +29,6 @@ export class AboutComponent {
         },
       ],
       tech: [
-        {
-          name: 'java',
-          link: 'https://www.java.com/en/',
-        },
-        {
-          name: 'SpringBoot',
-          link: 'https://spring.io/projects/spring-boot',
-        },
         {
           name: 'Kafka',
           link: 'https://kafka.apache.org/',
@@ -78,7 +70,7 @@ export class AboutComponent {
     },
     {
       company: 'CEVA Logistics',
-      position: 'Full Stack Developer',
+      position: 'SOFTWARE DEVELOPER',
       time_period: 'FEB 2024 - DEC 2024' + '.' + ' 11 months',
       place: 'Pennsylvania, USA', 
       projects: [
@@ -89,14 +81,7 @@ export class AboutComponent {
         },
       ],
       tech: [
-        {
-          name: 'JAVA',
-          link: 'https://www.java.com/en/',
-        },
-        {
-          name: 'SpringBoot',
-          link: 'https://spring.io/projects/spring-boot',
-        },
+        
         {
           name: 'React.js',
           link: 'https://react.dev/',
@@ -137,7 +122,7 @@ export class AboutComponent {
     },
     {
       company: 'Takeda Pharmaceutical ',
-      position: 'Java Full Stack Developer', 
+      position: 'SOTWARE ENGINEER', 
       time_period: 'sep 2022 – June 2023' + '.' + ' 10 months',
       place: 'India', 
       projects: [
@@ -148,14 +133,6 @@ export class AboutComponent {
         },
       ],
       tech: [
-        {
-          name: 'JAVA',
-          link: 'https://www.java.com/en/',
-        },
-        {
-          name: 'SpringBoot',
-          link: 'https://spring.io/projects/spring-boot',
-        },
         {
           name: 'Hibernate',
           link: 'https://hibernate.org/',
@@ -188,7 +165,7 @@ export class AboutComponent {
     },
     {
       company: 'Tata AIA Life Insurance',
-      position: 'Software Intern', 
+      position: 'SOFTWARE INTERN', 
       time_period: 'July 2021 – Aug 2022' + '.' + '1 yr 2 months',
       place: 'India', 
       projects: [
@@ -199,14 +176,7 @@ export class AboutComponent {
         },
       ],
       tech: [
-        {
-          name: 'JAVA',
-          link: 'https://www.java.com/en/',
-        },
-        {
-          name: 'SpringBoot',
-          link: 'https://spring.io/projects/spring-boot',
-        },
+        
         {
           name: 'MySQL',
           link: 'https://www.mysql.com/',
