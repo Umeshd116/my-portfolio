@@ -67,15 +67,6 @@
           {{item.time_period}}
         </p>
       </div>
-      <!-- Position -->
-      <p class="font-medium text-gray-500 dark:text-gray-300">{{item.place}}</p>
-      <!-- Projects -->
-      <div class="flex flex-wrap items-center mt-2">
-        <!-- Projects -->
-        <span
-          class="text-sm md:text-lg m-1 font-medium text-yellow-500 dark:text-gray-300 break-keep"
-          >Responsibilities :
-        </span>
         @for (tech of item.projects; track $index) {
         <!-- project Names -->
         <a [href]="tech.link" target="_blank">
