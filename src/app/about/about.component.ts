@@ -121,87 +121,25 @@ export class AboutComponent {
       ],
     },
     {
-      company: 'Takeda Pharmaceutical ',
-      position: 'SOTWARE ENGINEER', 
-      time_period: 'sep 2022 – June 2023' + '.' + ' 10 months',
+      company: 'WESTERN MICHIGAN UNIVERSITY ',
+      position: 'RESEARCH ASSISTANT', 
+      time_period: 'Feb 2024 – Dec 2024' + '.' + ' 11 months',
       place: 'India', 
-      projects: [
-        {
-          name: `Led migration from monolith to microservices
-                 with Spring Boot and AWS, developed cross-platform UIs 
-                 in Ionic, and integrated big data analytics using Spark and Kafka.`,
-        },
-      ],
-      tech: [
-        {
-          name: 'Hibernate',
-          link: 'https://hibernate.org/',
-        },
-        {
-          name: 'Hadoop',
-          link: 'https://hadoop.apache.org/',
-        },
-        {
-          name: 'Spark',
-          link: 'https://spark.apache.org/',
-        },
-        {
-          name: 'Kafka',
-          link: 'https://kafka.apache.org/',
-        },
-        {
-          name: 'AWS',
-          link: 'https://aws.amazon.com/',
-        },
-        {
-          name: 'Mockito',
-          link: 'https://site.mockito.org/',
-        },
-        {
-          name: 'Git',
-          link: 'https://git-scm.com/'
-        },
-      ],
+      
     },
     {
-      company: 'Tata AIA Life Insurance',
+      company: 'High Radius',
       position: 'SOFTWARE INTERN', 
-      time_period: 'July 2021 – Aug 2022' + '.' + '1 yr 2 months',
+      time_period: 'Nov 2022 – May 2023' + '.' + '7 months',
       place: 'India', 
       projects: [
         {
           name: `Built and secured RESTful services with Spring Boot,
-                 JPA, and AWS; migrated SOAP services to REST APIs, and delivered 
+                 JPA; migrated SOAP services to REST APIs, and delivered 
                  multi-threaded modules for concurrent data processing.`,
         },
       ],
-      tech: [
-        
-        {
-          name: 'MySQL',
-          link: 'https://www.mysql.com/',
-        },
-        {
-          name: 'AWS',
-          link: 'https://aws.amazon.com/',
-        },
-        {
-          name: 'Amazon EC2',
-          link: 'https://aws.amazon.com/ec2/',
-        },
-        {
-          name: 'Amazon Route 53',
-          link: 'https://aws.amazon.com/route53/',
-        }, 
-        {
-          name: 'MongoDB',
-          link: 'https://www.mongodb.com/',
-        },
-        {
-          name: 'Hibernate',
-          link: 'https://hibernate.org/'
-        },
-      ],
+      
     },
   ];
 
@@ -209,7 +147,7 @@ export class AboutComponent {
     {
       studied_at: 'Western Michigan University',
       qualified: 'Master of Science: Computer Science',
-      time_period: '2023 - 2024',
+      time_period: '2023 - 2025',
       place: 'Kalamazoo, Michigan, USA',
     },
 
