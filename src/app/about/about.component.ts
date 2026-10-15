@@ -19,14 +19,14 @@ export class AboutComponent {
     {
       company: 'WESTERN MICHIGAN UNIVERSITY ',
       position: 'RESEARCH ASSISTANT', 
-      time_period: 'Feb 2024 – Dec 2024' + '.' + ' 11 months',
+      time_period: 'Jan 2024 – March 2025' + '.' + ' 15 months',
       place: 'Kalamazoo, MI', 
       
     },
     {
       company: 'High Radius',
       position: 'SOFTWARE INTERN', 
-      time_period: 'Nov 2022 – May 2023' + '.' + '7 months',
+      time_period: 'Aug 2022 – May 2023' + '.' + '9 months',
       place: 'India', 
       
       
