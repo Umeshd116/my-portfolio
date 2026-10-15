@@ -67,19 +67,18 @@
           {{item.time_period}}
         </p>
       </div>
-        @for (tech of item.projects; track $index) {
-        <!-- project Names -->
-        <a [href]="tech.link" target="_blank">
-          <span
-            class="text-sm md:text-lg m-1 text-yellow-700 cursor-pointer whitespace-nowrap"
-            style="white-space: pre-line;"
 
-            >{{tech.name}},</span
-          ></a
-        >
-        }
-      </div>
-      
+      @for (tech of item.projects; track $index) {
+      <!-- project Names -->
+      <a [href]="tech.link" target="_blank">
+        <span
+          class="text-sm md:text-lg m-1 text-yellow-700 cursor-pointer whitespace-nowrap"
+          style="white-space: pre-line;"
+          >{{tech.name}},</span
+        ></a
+      >
+      }
+
       <!-- Tech Tools -->
       <div class="flex flex-wrap mt-2">
         <span
@@ -90,7 +89,6 @@
         <!-- tech i used -->
         <a [href]="tech.link" target="_blank">
           <span class="text-sm md:text-md m-1 text-green-900 cursor-pointer"
-          
             >#{{tech.name}}</span
           ></a
         >
@@ -98,8 +96,6 @@
       </div>
 
       <hr class="border-t border-gray-300 dark:border-gray-600 my-4" />
-
-
       }
     </div>
   </div>
@@ -137,7 +133,6 @@
       </div>
       <!-- Place -->
       <p class="font-medium text-gray-500 dark:text-gray-300">{{item.place}}</p>
-
       }
     </div>
   </div>
